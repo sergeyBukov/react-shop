@@ -1,0 +1,29 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #F5F5F5;
+    --green: #7FAD39;
+    --black-bg: #191919;
+}
+
+@mixin flex ($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin font ($s, $w, $h) {
+    font-size: $s;
+    font-weight: $w;
+    line-height: $h;
+}
+
+.container {
+    width: calc(100% - 60px);
+    max-width: 1142px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        width: calc(100% - 30px);
+    }
+}
