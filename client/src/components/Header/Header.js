@@ -1,4 +1,4 @@
-import './header.scss'
+import './header.scss';
 
 const Header = () => {
     return (
@@ -11,4 +11,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;

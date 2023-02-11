@@ -1,4 +1,4 @@
-import './footer.scss'
+import './footer.scss';
 
 const Footer = () => {
     return (
@@ -10,4 +10,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

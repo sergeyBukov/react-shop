@@ -1,4 +1,4 @@
-@use '../../global';
+@use '../../mixins.scss';
 
 .footer {
     background-color: var(--black-bg);
@@ -6,7 +6,7 @@
     padding: 14px 0;
 
     &__content {
-        @include global.flex(space-between, center);
+        @include mixins.flex(space-between, center);
         color: var(--white);
     }
 

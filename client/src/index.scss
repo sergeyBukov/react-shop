@@ -7,6 +7,14 @@
     list-style: none;
 }
 
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #F5F5F5;
+    --green: #7FAD39;
+    --black-bg: #191919;
+}
+
 #root {
     min-height: 100vh;
     display: flex;
@@ -24,6 +32,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+.container {
+    width: calc(100% - 30px);
+    max-width: 1142px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        width: calc(100% - 60px);
+    }
 }
