@@ -1,19 +1,12 @@
-import './App.scss';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
+import React from "react";
+import Layout from "./components/Layout/Layout";
 
-function App() {
+const App = () => {
     return (
-        <div className="App">
-            <Header />
-
-            <main className='App__main'>
-
-            </main>
-
-            <Footer />
-        </div>
-    );
+        <Layout>
+            components...
+        </Layout>
+    )
 }
 
 export default App;
