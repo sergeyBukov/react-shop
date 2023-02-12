@@ -8,4 +8,16 @@
         @include mixins.flex(space-between, center);
         color: var(--white);
     }
+
+    &-login {
+        @include mixins.flex(center, center);
+        @include mixins.font(12px, 700, 100%);
+        gap: 10px;
+        border: none;
+        background: none;
+        color: var(--white);
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+    }
 }
